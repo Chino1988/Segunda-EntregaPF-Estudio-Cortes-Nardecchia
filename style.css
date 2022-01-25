@@ -283,22 +283,3 @@ footer {
 }
 
 /* FIN FOOTER */
-
-@media screen and (min-width: 450px) {
-    .img-1 {
-        display: none;
-    }
-    .img-2 {
-        display: none;
-    }
-    .img-3 {
-        display: none;
-    }
-    .img-4 {
-        display: none;
-    }
-
-    .content-uno, .content-dos, .content-tres, .content-cuatro {
-        display: block;
-    }
-}
