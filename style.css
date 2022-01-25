@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+.title {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem #333;
+    font-size: 4em;
+}
+header {
+    background-color:   #1F2023;
+}
+.nav-item {
+    font: white;
+}
+
+.dropdown-divider {
+    background-color:   #1F2023;
+    padding: 10px;
+}
+
+/* FIN HEADER */
+
+/* SECCION UNO */
+
+body {
+background-color: #585D63;
+}
+
+.bn-lista {
+    background-color: rgba(126, 133, 141, 0.6);
+    border-radius: 10px;
+    size: 0.2em;
+}
+
+.bn-slider {
+    width: 80%;
+    border-radius: 8px;
+}
+
+.content-uno, .content-dos, .content-tres, .content-cuatro {
+    background-color: rgba(144, 144, 150, 0.6);
+    border-radius: 8px;
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* FIN SECCION UNO */
+
+/* INICIO SECCION DOS */
+
+.cabeza-nosotros {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem rgb(15, 15, 15);
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.titu-nos {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+
+.img-cortes {
+    width: 300px;
+    border: 1px solid black;
+    cursor: default;
+    transition: all 600ms ease;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    background-color: #E0E2E4;
+}
+.img-barro, .img-rodri, .img-garay {
+    width: 300px;
+    border: 1px solid black;
+    cursor: default;
+    transition: all 600ms ease;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    background-color: #E0E2E4;
+}
+.img-barro:hover {
+    transform: translateY(-2%);
+}
+.img-rodri:hover {
+    transform: translateY(-2%);
+}
+
+.img-garay:hover {
+    transform: translateY(-2%);
+}
+
+.img-cortes:hover {
+    transform: translateY(-2%);
+}
+
+.contenido, .contenido-cortes-uno, .contenido-cortes-dos, .contenido-cortes-tres, .contenido-cortes-cuatro {
+    text-align: center;
+}
+/* FIN SECCION DOS */
+
+/* INICIO SECCION TRES */
+
+#section-faq {
+    box-sizing: 80%;
+    width: 100%;
+}
+
+.img-faq {
+    width: 250px;
+    background-color: #E0E2E4;
+    height: auto;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: content-box;
+    border: 1px solid black;
+    cursor: default;
+    transition: all 600ms ease;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+
+.cabeza-preguntas {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem rgb(15, 15, 15);
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.pregunta-uno, .pregunta-dos, .pregunta-tres {
+    font-size: 1em;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.collapse {
+    width: 80%;
+}
+
+
+/* FIN SECCION TRES */
+
+/* INICIO SECCION CUATRO */
+
+.cabeza-publi {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem rgb(15, 15, 15);
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.titu-publi {
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.card-group {
+    width: 80%;
+}
+.card-img-top {
+    border-top: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-left: 0.5px solid black;
+}
+
+.card-body {
+    background-color: rgba(193, 197, 202, 0.5);
+    width: 100%;
+    border: 0.5px solid black;
+    font: black;
+}
+
+/* FIN SECCION CUATRO */
+
+/* INICIO SECCION CINCO */
+
+
+.oficina {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem rgb(15, 15, 15);
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mza, .caba {
+    text-decoration: underline;
+}
+
+
+.map {
+    margin-bottom: 25px;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+.col {
+    margin-bottom: 25px;
+}
+
+
+#secundario {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem rgb(15, 15, 15);
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.internacional {
+    width: 50%;
+    font-style: italic;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* FIN SECCION CINCO */
+
+/* INICIO FOOTER */
+
+footer {
+    background-color: white;
+}
+
+.contacto {
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.cabeza {
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.btn-ig {
+    background-color: rgb(225,48,108);
+}
+
+.container-redes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* FIN FOOTER */
